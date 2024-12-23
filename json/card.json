@@ -1,0 +1,23 @@
+{
+  "card": [
+    {
+      "type": "product",
+      "title": "Stylish Watch",
+      "image": "../utils/images/card/stylishWatch.png",
+      "price": "$59.99",
+      "buttonText": "Add to Cart"
+    },
+    {
+      "type": "subscription",
+      "title": "Subscribe to Our Newsletter",
+      "description": "Stay updated with the latest deals and news!"
+    },
+    {
+      "type": "offer",
+      "title": "Limited Time Offer!",
+      "details": "Get 50% off on all items. Use code: SAVE50",
+      "expiry": "Offer expires: Dec 31, 2024",
+      "buttonText": "Shop Now"
+    }
+  ]
+}

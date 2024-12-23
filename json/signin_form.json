@@ -1,0 +1,27 @@
+{
+  "labels": {
+    "emailLabel": "Email",
+    "passwordLabel": "Password",
+    "rememberMeLabel": "Remember me",
+    "forgotPasswordLabel": "Forgot password?",
+    "signUpTextQuestion": "Don't have an account?",
+    "signUpText": "Sign Up",
+    "orWithText": "Or With",
+    "googleButtonText": "Google",
+    "appleButtonText": "Apple"
+  },
+  "placeholders": {
+    "emailPlaceholder": "Enter your Email",
+    "passwordPlaceholder": "Enter your Password"
+  },
+  "icons": {
+    "emailIcon": "../utils/images/signInForm/at.png",
+    "passwordIcon": "../utils/images/signInForm/lock.png",
+    "eyeIcon": "../utils/images/signInForm/eye.png",
+    "googleIcon": "../utils/images/signInForm/google.png",
+    "appleIcon": "../utils/images/signInForm/apple.png"
+  },
+  "buttonText": {
+    "signInButtonText": "Sign In"
+  }
+}

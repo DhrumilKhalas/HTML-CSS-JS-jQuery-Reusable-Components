@@ -1,0 +1,416 @@
+/* Import Google fonts */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+/* Scrollbar CSS starts from here */
+body {
+  --sb-track-color: #f1f1f1;
+  --sb-thumb-color: #c6c6c6;
+  --sb-size: 10px;
+}
+
+body::-webkit-scrollbar {
+  width: var(--sb-size);
+}
+
+body::-webkit-scrollbar-track {
+  background: var(--sb-track-color);
+  border-radius: 5px;
+}
+
+body::-webkit-scrollbar-thumb {
+  background: var(--sb-thumb-color);
+  border-radius: 5px;
+}
+
+@supports not selector(::-webkit-scrollbar) {
+  body {
+    scrollbar-color: var(--sb-thumb-color) var(--sb-track-color);
+  }
+}
+
+html,
+body {
+  scroll-behavior: smooth;
+}
+
+/* Scrollbar CSS ends here */
+/* Footer always at bottom CSS starts from here */
+body {
+  min-height: 100vh;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+}
+
+.main-outer-section {
+  display: grid;
+  grid-template-rows: auto 1fr auto;
+  min-height: 100vh;
+}
+
+header {
+  min-height: 100px;
+}
+
+nav {
+  min-height: 50px;
+}
+
+main {
+  padding: 20px;
+}
+
+footer {
+  min-height: 50px;
+}
+
+/* Footer always at bottom CSS ends here */
+/* Go to top button CSS starts from here */
+#goToTopButton {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  display: none;
+  padding: 10px 15px;
+  cursor: pointer;
+  border-radius: 50%;
+  height: 52px;
+  border: none;
+  background-color: #F39C12;
+}
+
+#goToTopButton img {
+  height: 20px;
+  width: 20px;
+  animation: bounce 2s infinite;
+  /* Adds a bounce animation */
+}
+
+#goToTopButton:hover {
+  transition: 1s;
+  background-color: #E67E22;
+}
+
+@keyframes bounce {
+
+  0%,
+  100% {
+    transform: translateY(0);
+  }
+
+  50% {
+    transform: translateY(-2px);
+  }
+}
+
+/* Go to top button CSS ends here */
+/* Fonts and Background color related CSS starts from here */
+body {
+  background-color: #F4F8FB;
+  color: #1A1A1A;
+  font-family: "Poppins", sans-serif;
+  /* font-weight: 100; */
+  font-style: normal;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Fonts and Background color related CSS ends here */
+/* Header CSS starts from here */
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-top: 1px solid rgba(176, 176, 176, 0.75);
+  background-color: #FFFFFF;
+}
+
+.logo {
+  margin: 0;
+  padding-left: 30px;
+  cursor: pointer;
+}
+
+.logo:hover {
+  scale: 1.1;
+  transition: 1s;
+}
+
+.logo-image {
+  height: 80px;
+  width: 80px;
+}
+
+.down-arrow {
+  height: 20px;
+  width: 20px;
+}
+
+.title {
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+  letter-spacing: 2px;
+  color: #0068C4;
+}
+
+.user-information {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  padding-right: 30px;
+}
+
+.user-avatar {
+  border: 1px solid #F39C12;
+  padding: 10px 15px;
+  border-radius: 50%;
+  background-color: #F39C12;
+  color: #FFFFFF;
+}
+
+.down-arrow {
+  cursor: pointer;
+}
+
+/* Header CSS ends here */
+/* Navbar CSS starts from here */
+.navbar {
+  background-color: #0068C4;
+  height: 59px;
+  border: 1px solid #0068C4;
+}
+
+.navbar ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 50px;
+}
+
+.nav-anchors {
+  text-decoration: none;
+  color: #fcf5e7 !important;
+  display: flex !important;
+  justify-content: center !important;
+  align-items: center !important;
+  gap: 10px;
+  letter-spacing: 3px;
+}
+
+#nav-table-icon {
+  height: 20px;
+  width: 20px;
+}
+
+.navbar ul li {
+  position: relative;
+}
+
+.navbar ul li a {
+  padding: 20px;
+  color: #333;
+  display: block;
+}
+
+.navbar ul li a:hover,
+.navbar ul li a:focus {
+  background-color: #FFFFFF;
+  color: #0068C4;
+}
+
+.navbar ul li ul {
+  position: absolute;
+  left: 0;
+  width: 200px;
+  background: #fff;
+  display: none;
+  z-index: 1000;
+}
+
+.navbar ul li ul li {
+  width: 100%;
+  border-top: 1px solid #0069c433;
+}
+
+.navbar ul li ul li a {
+  padding: 15px 20px;
+  text-decoration: none;
+  letter-spacing: 1.5px;
+}
+
+.navbar ul li:hover>ul {
+  display: block;
+}
+
+.navbar ul li:hover>a,
+.navbar ul li a:focus {
+  background-color: #FFFFFF;
+  color: #0068C4 !important;
+}
+
+.navbar ul li ul li a:hover,
+.navbar ul li ul li a:focus {
+  background-color: #FFFFFF;
+  color: #0068C4;
+}
+
+.navbar-icons {
+  height: 25px;
+  width: 25px;
+}
+
+#down-arrow {
+  margin-left: 8px;
+}
+
+/* Navbar CSS ends here */
+/* Left sidebar CSS starts from here */
+main {
+  display: flex;
+  margin: 0;
+}
+
+main section {
+  flex: 4;
+}
+
+.sidebar-icons-blue,
+.sidebar-icons-white {
+  height: 30px;
+  width: 30px;
+}
+
+.sidebar-icons-white {
+  display: none;
+}
+
+.left-aside-section:hover .sidebar-icons-blue {
+  display: none;
+}
+
+.left-aside-section:hover .sidebar-icons-white {
+  display: block;
+}
+
+.sidebar-icons-blue,
+.sidebar-icons-white {
+  transition: opacity 0.3s ease;
+}
+
+main .left-aside {
+  flex: 1;
+  background-color: #FFFFFF;
+  letter-spacing: 1.5px;
+  height: max-content;
+  margin-left: 10px;
+  border: 1px solid #0069c433;
+  border-radius: 7px;
+}
+
+.sidebar-anchor {
+  color: #0068C4;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 25px 25px;
+}
+
+.left-aside-section a figure {
+  margin: 0;
+}
+
+.left-aside-section:hover {
+  color: #FFFFFF;
+  background-color: #0068C4;
+  border: 1px solid #0068C4;
+}
+
+.left-aside-section:hover a {
+  color: #FFFFFF;
+}
+
+.left-aside-section a:hover {
+  color: #FFFFFF;
+}
+
+.left-aside-section:active {
+  scale: 0.9;
+  transition: 1s;
+}
+
+nav:first-child {
+  margin-top: 25px;
+}
+
+nav:last-child {
+  margin-bottom: 25px;
+}
+
+/* Left Sidebar CSS ends here */
+/* Main section CSS starts from here */
+.main-section {
+  margin-left: 30px;
+  margin-right: 30px;
+}
+
+.hr {
+  display: block;
+  height: 1px;
+  border: 0;
+  border-top: 3px solid #0068C4;
+  margin: 1em 0;
+  padding: 0;
+}
+
+.title-section {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.title-section figure {
+  margin: 0;
+}
+
+.title-section-image {
+  height: 40px;
+  width: 40px;
+}
+
+/* Main section CSS ends here */
+/* Footer CSS starts from here */
+footer {
+  background-color: #0068C4;
+  color: #FFFFFF;
+  padding: 20px;
+  text-align: center;
+  height: 40px;
+  padding-bottom: 40px;
+}
+
+.footer-list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+  list-style: none;
+}
+
+.footer-links {
+  font-weight: bold;
+  color: #FFFFFF;
+}
+
+.footer-paragraph {
+  font-size: 14px;
+  margin-top: 25px;
+}
+
+/* Footer CSS ends here */

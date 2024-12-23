@@ -1,0 +1,114 @@
+/* CSS related to expenses.html starts from here */
+.full-wrapper {
+  display: grid;
+  grid-template-columns: 2fr 5fr;
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+
+.header {
+  padding: 20px;
+  background-color: #ffffff;
+  position: sticky;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1;
+}
+
+.header .user {
+  float: right;
+}
+
+.header .user h2 {
+  font-size: 20px;
+}
+
+.content {
+  flex-grow: 1;
+  margin: 20px;
+}
+
+.page-title {
+  padding: 20px 0;
+}
+
+.page-title h1 {
+  font-size: 25px;
+  font-weight: 600;
+}
+
+.footer {
+  padding: 20px;
+  background-color: #ffffff;
+}
+
+.row {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 30px;
+}
+
+.widget {
+  background-color: #ffffff;
+  padding: 20px;
+  border: 1px solid #0069c432;
+  border-radius: 10px;
+  -webkit-box-shadow: 7px 7px 5px 0px rgba(214, 214, 214, 1);
+  -moz-box-shadow: 7px 7px 5px 0px rgba(214, 214, 214, 1);
+  box-shadow: 7px 7px 5px 0px rgba(214, 214, 214, 1);
+}
+
+.widget-table {
+  width: 800px;
+}
+
+.widget-pi {
+  width: 400px;
+}
+
+.slicknav_menu {
+  display: none;
+}
+
+.expense-pichart {
+  background-color: pink !important;
+}
+
+.piechart-table-hr {
+  background-color: #0068c4;
+  color: #ffffff;
+}
+
+/* Media query for smaller screens */
+@media screen and (max-width: 800px) {
+  #menu {
+    display: none;
+  }
+
+  .full-wrapper {
+    grid-template-columns: 1fr;
+  }
+
+  .slicknav_menu {
+    display: block;
+    position: absolute;
+    right: 0;
+    width: 300px;
+    top: 35px;
+  }
+
+  .slicknav_menu ul li a {
+    color: white;
+  }
+
+  .row {
+    grid-template-columns: 1fr;
+  }
+}
+
+/* CSS related to expenses.html ends here */

@@ -1,0 +1,73 @@
+/* CSS related to progressBar.html starts from here */
+body,
+html {
+    overflow-x: hidden;
+}
+
+.progress-container {
+    width: 100%;
+    max-width: 600px;
+    background-color: #e0e0e0;
+    border-radius: 25px;
+    overflow: hidden;
+    margin-bottom: 20px;
+    position: relative;
+    margin-top: 10px;
+}
+
+.progressbar-btn {
+    display: flex;
+    gap: 10px;
+}
+
+.progress-bar {
+    height: 30px;
+    width: 0;
+    background-color: #4caf50;
+    border-radius: 25px;
+    transition: width 0.5s ease-in-out;
+}
+
+.progress-text {
+    text-align: center;
+    color: #fff;
+    color: #36454F;
+    font-weight: bold;
+    position: absolute;
+    width: 100%;
+    top: 7px;
+}
+
+
+
+.buttons {
+    margin-bottom: 20px;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 5px;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+.status-message {
+    font-size: 16px;
+    color: #28a745;
+    font-weight: bold;
+    display: none;
+}
+
+#stopBtn,
+#resetBtn {
+    display: none;
+}
+
+/* CSS related to progressBar.html ends here */

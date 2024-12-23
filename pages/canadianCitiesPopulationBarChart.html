@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Meta tags for character encoding and responsiveness -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Page title and favicon -->
+    <title>Smart Dashboard</title>
+    <link rel="icon" type="image/x-icon" href="../utils/images/main/icon.png" />
+    <!-- External CSS stylesheets for normalization and custom styles -->
+    <link rel="stylesheet" href="../styles/main/normalize.css" />
+    <link rel="stylesheet" href="../styles/main/main.css" />
+    <link rel="stylesheet" href="../styles/canadianCitiesPopulationBarChart/canadianCitiesPopulationBarChart.css">
+    <!-- External JavaScript libraries (jQuery and Chart.js) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.4.0/Chart.min.js"></script>
+</head>
+
+<body>
+
+    <!-- Main outer container -->
+    <section class="main-outer-section">
+
+        <!-- Header section with logo, title, and user information -->
+        <header>
+            <a href="../pages/expenses.html">
+                <figure class="logo">
+                    <img src="../utils/images/main/icon.png" alt="Smart Dashboard" class="logo-image">
+                </figure>
+            </a>
+            <h1 class="title">Smart Dashboard</h1>
+            <section class="user-information">
+                <span class="user-avatar">J</span>
+                <span class="user-name">John Doe</span>
+                <span class="down-arrow">&#x25BC;</span>
+            </section>
+        </header>
+
+        <!-- Navigation bar -->
+        <nav class="navbar">
+            <ul>
+                <!-- Home link -->
+                <li><a href="#" class="nav-anchors"><span class="nav-title">Home</span></a></li>
+                <!-- About Us with dropdown -->
+                <li>
+                    <a href="#" class="nav-anchors"><span class="nav-title">About Us<span
+                                id="down-arrow">&#x25BC;</span></span></a>
+                    <ul>
+                        <li><a href="#">Our Story</a></li>
+                        <li><a href="#">Our Team</a></li>
+                    </ul>
+                </li>
+                <!-- Additional links -->
+                <li><a href="#" class="nav-anchors"><span class="nav-title na-title-table">Contact</span></a></li>
+                <li><a href="#" class="nav-anchors"><span class="nav-title na-title-table">Blog</span></a></li>
+                <li><a href="#" class="nav-anchors"><span class="nav-title na-title-table">FAQ</span></a></li>
+            </ul>
+        </nav>
+
+        <main>
+
+            <!-- Left Sidebar -->
+            <aside class="left-aside">
+                <nav>
+                    <!-- Sidebar navigation for various features -->
+                    <!-- Pie Chart and Data Table Feature -->
+                    <section class="left-aside-section">
+                        <a href="../pages/expenses.html" class="sidebar-anchor">
+                            <figure>
+                                <img src="../utils/images/main/pieChartBlue.png" alt="Pie Chart"
+                                    class="sidebar-icons-blue">
+                                <img src="../utils/images/main/pieChartWhite.png" alt="Pie Chart"
+                                    class="sidebar-icons-white">
+                            </figure>
+                            <span>Pie Chart and Data Table</span>
+                        </a>
+                    </section>
+                    <!-- Line Chart Feature -->
+                    <section class="left-aside-section">
+                        <a href="../pages/liveWeatherDataLineChart.html" class="sidebar-anchor">
+                            <figure>
+                                <img src="../utils/images/main/lineChartBlue.png" alt="Line Chart"
+                                    class="sidebar-icons-blue">
+                                <img src="../utils/images/main/lineChartWhite.png" alt="Line Chart"
+                                    class="sidebar-icons-white">
+                            </figure>
+                            <span>Line Chart</span>
+                        </a>
+                    </section>
+                    <!-- Bar Chart Feature -->
+                    <section class="left-aside-section">
+                        <a href="../pages/canadianCitiesPopulationBarChart.html" class="sidebar-anchor">
+                            <figure>
+                                <img src="../utils/images/main/barChartBlue.png" alt="Bar Chart"
+                                    class="sidebar-icons-blue">
+                                <img src="../utils/images/main/barChartWhite.png" alt="Bar Chart"
+                                    class="sidebar-icons-white">
+                            </figure>
+                            <span>Bar Chart</span>
+                        </a>
+                    </section>
+                    <!-- Simple Table Feature -->
+                    <section class="left-aside-section">
+                        <a href="../pages/booksDatatable.html" class="sidebar-anchor">
+                            <figure>
+                                <img src="../utils/images/main/tableBlue.png" alt="Simple Table"
+                                    class="sidebar-icons-blue">
+                                <img src="../utils/images/main/tableWhite.png" alt="Simple Table"
+                                    class="sidebar-icons-white">
+                            </figure>
+                            <span>Simple Table</span>
+                        </a>
+                    </section>
+                    <!-- Form Feature -->
+                    <section class="left-aside-section">
+                        <a href="../pages/signInForm.html" class="sidebar-anchor">
+                            <figure>
+                                <img src="../utils/images/main/formBlue.png" alt="Form" class="sidebar-icons-blue">
+                                <img src="../utils/images/main/formWhite.png" alt="Form" class="sidebar-icons-white">
+                            </figure>
+                            <span>Form</span>
+                        </a>
+                    </section>
+                    <!-- Modal Box Feature -->
+                    <section class="left-aside-section">
+                        <a href="../pages/modalBox.html" class="sidebar-anchor">
+                            <figure>
+                                <img src="../utils/images/main/modalBlue.png" alt="Modal" class="sidebar-icons-blue">
+                                <img src="../utils/images/main/modalWhite.png" alt="Modal" class="sidebar-icons-white">
+                            </figure>
+                            <span>Modal Box with Information</span>
+                        </a>
+                    </section>
+                    <!-- Card Feature -->
+                    <section class="left-aside-section">
+                        <a href="../pages/card.html" class="sidebar-anchor">
+                            <figure>
+                                <img src="../utils/images/main/cardBlue.png" alt="Card" class="sidebar-icons-blue">
+                                <img src="../utils/images/main/cardWhite.png" alt="Card" class="sidebar-icons-white">
+                            </figure>
+                            <span>Card with Information</span>
+                        </a>
+                    </section>
+                    <!-- Accordion Feature -->
+                    <section class="left-aside-section">
+                        <a href="../pages/accordion.html" class="sidebar-anchor">
+                            <figure>
+                                <img src="../utils/images/main/accordionBlue.png" alt="Accordion"
+                                    class="sidebar-icons-blue">
+                                <img src="../utils/images/main/accordionWhite.png" alt="Accordion"
+                                    class="sidebar-icons-white">
+                            </figure>
+                            <span>Accordion</span>
+                        </a>
+                    </section>
+                    <!-- Carousel Feature -->
+                    <section class="left-aside-section">
+                        <a href="../pages/carousel.html" class="sidebar-anchor">
+                            <figure>
+                                <img src="../utils/images/main/carouselBlue.png" alt="Carousel"
+                                    class="sidebar-icons-blue">
+                                <img src="../utils/images/main/carouselWhite.png" alt="Carousel"
+                                    class="sidebar-icons-white">
+                            </figure>
+                            <span>Image Carousel</span>
+                        </a>
+                    </section>
+                    <!-- Progress Bar Feature -->
+                    <section class="left-aside-section">
+                        <a href="../pages/progressBar.html" class="sidebar-anchor">
+                            <figure>
+                                <img src="../utils/images/main/progressBarBlue.png" alt="Progress Bar"
+                                    class="sidebar-icons-blue">
+                                <img src="../utils/images/main/progressBarWhite.png" alt="Progress Bar"
+                                    class="sidebar-icons-white">
+                            </figure>
+                            <span>Progress Bar</span>
+                        </a>
+                    </section>
+
+                </nav>
+            </aside>
+
+            <!-- Main content section  -->
+            <section class="main-section">
+
+                <section id="barChart">
+                    <!-- Title section with icon and heading -->
+                    <section class="title-section">
+                        <figure>
+                            <img src="../utils/images/main/barChartBlue.png" alt="Bar Chart"
+                                class="title-section-image">
+                        </figure>
+                        <h1 class="title">Canadian Cities Population Bar Chart (2024)</h1>
+                    </section>
+
+                    <!-- Wrapper for the bar chart canvas -->
+                    <div class="wrapper">
+                        <canvas id="myChart"></canvas>
+                    </div>
+
+                </section>
+
+        </main>
+
+        <!-- Footer Section -->
+        <footer>
+            <ul class="footer-list">
+                <!-- Footer navigation links -->
+                <li><a href="#" class="footer-links">Home</a></li>
+                <li><a href="#" class="footer-links">About Us</a></li>
+                <li><a href="#" class="footer-links">Contact</a></li>
+                <li><a href="#" class="footer-links">Blog</a></li>
+                <li><a href="#" class="footer-links">FAQ</a></li>
+            </ul>
+            <p class="footer-paragraph">&copy; 2024 - Smart Dashboard</p>
+        </footer>
+
+    </section>
+
+    <!-- Go to top button -->
+    <button id="goToTopButton" onclick="scrollToTop()">
+        <img src="../utils/images/main/goToTop.png" alt="Go To Top" />
+    </button>
+
+    <!-- Importing external JavaScript files -->
+    <script src="../scripts/main/main.js"></script>
+    <script src="../scripts/canadianCitiesPopulationBarChart/canadianCitiesPopulationBarChart.js"></script>
+
+</body>
+
+</html>

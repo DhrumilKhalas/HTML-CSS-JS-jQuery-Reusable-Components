@@ -1,0 +1,24 @@
+{
+  "accordion": [
+    {
+      "title": "History of the Internet",
+      "content": "The internet originated from ARPANET in the late 1960s, initially funded by the U.S. Department of Defense. It has since evolved into a global network connecting billions of devices, revolutionizing communication and information sharing."
+    },
+    {
+      "title": "Climate Change",
+      "content": "Climate change refers to the long-term shifts in temperature and weather patterns, primarily caused by human activities like burning fossil fuels. Its effects include rising sea levels, extreme weather, and biodiversity loss."
+    },
+    {
+      "title": "Artificial Intelligence",
+      "content": "AI is a branch of computer science that aims to create machines capable of mimicking human intelligence. Applications include virtual assistants, autonomous vehicles, and predictive analytics in various industries."
+    },
+    {
+      "title": "Space Exploration",
+      "content": "Space exploration has been pivotal in advancing human knowledge about the universe. Milestones include the Moon landing in 1969, the Mars rovers, and the James Webb Space Telescope, which is uncovering new cosmic mysteries."
+    },
+    {
+      "title": "Benefits of Exercise",
+      "content": "Regular exercise improves physical health, boosts mental well-being, and reduces the risk of chronic diseases. Activities like walking, running, and yoga help maintain a balanced and healthy lifestyle."
+    }
+  ]
+}

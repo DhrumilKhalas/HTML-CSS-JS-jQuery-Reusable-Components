@@ -1,0 +1,84 @@
+{
+  "cities": [
+    {
+      "name": "Toronto",
+      "population": 2794356
+    },
+    {
+      "name": "Montreal",
+      "population": 1762949
+    },
+    {
+      "name": "Calgary",
+      "population": 1306784
+    },
+    {
+      "name": "Ottawa",
+      "population": 1017449
+    },
+    {
+      "name": "Edmonton",
+      "population": 1010899
+    },
+    {
+      "name": "Winnipeg",
+      "population": 749607
+    },
+    {
+      "name": "Mississauga",
+      "population": 717961
+    },
+    {
+      "name": "Vancouver",
+      "population": 662248
+    },
+    {
+      "name": "Brampton",
+      "population": 656480
+    },
+    {
+      "name": "Hamilton",
+      "population": 569353
+    },
+    {
+      "name": "Quebec City",
+      "population": 542298
+    },
+    {
+      "name": "Kitchener",
+      "population": 274000
+    },
+    {
+      "name": "London",
+      "population": 413000
+    },
+    {
+      "name": "Victoria",
+      "population": 100000
+    },
+    {
+      "name": "Surrey",
+      "population": 600000
+    },
+    {
+      "name": "Halifax",
+      "population": 442000
+    },
+    {
+      "name": "St. John's",
+      "population": 114000
+    },
+    {
+      "name": "Barrie",
+      "population": 160000
+    },
+    {
+      "name": "Guelph",
+      "population": 140000
+    },
+    {
+      "name": "Saskatoon",
+      "population": 319000
+    }
+  ]
+}

@@ -1,0 +1,54 @@
+/* CSS related to accordion.html starts from here */
+.accordion-container {
+    width: 80%;
+    max-width: 1000px;
+    background: #ffffff;
+    border-radius: 5px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+    margin-top: 10px;
+}
+
+.accordion-item {
+    border-bottom: 1px solid #ddd;
+}
+
+.accordion-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #20c997;
+    color: white;
+    border: none;
+    width: 100%;
+    text-align: left;
+    padding: 15px;
+    font-size: 1.1em;
+    cursor: pointer;
+    outline: none;
+    transition: background 0.3s;
+}
+
+.accordion-header:hover {
+    background: #17a589;
+}
+
+.accordion-content {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.3s ease-out;
+    background-color: #d4edda;
+    padding: 0 15px;
+}
+
+.accordion-content p {
+    margin: 15px 0;
+    color: #155724;
+}
+
+.accordion-icon {
+    font-size: 1.2em;
+    transition: transform 0.3s ease-out;
+}
+/* CSS related to accordion.html ends here */
+

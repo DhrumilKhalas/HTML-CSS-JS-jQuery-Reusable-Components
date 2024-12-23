@@ -1,0 +1,13 @@
+{
+  "logo": {
+    "src": "../utils/images/main/icon.png",
+    "alt": "Smart Dashboard"
+  },
+  "title": "Smart Dashboard",
+  "user": {
+    "avatar": "J",
+    "name": "John Doe"
+  },
+  "arrow": "&#x25BC;",
+  "link": "../pages/expenses.html"
+}

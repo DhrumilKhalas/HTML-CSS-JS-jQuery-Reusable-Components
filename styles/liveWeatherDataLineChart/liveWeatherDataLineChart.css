@@ -1,0 +1,50 @@
+/* CSS related to liveWeatherDataLineChart.html starts from here */
+.line-chart-errors {
+    color: red;
+}
+
+.weather-city-input {
+    height: 40px;
+    text-indent: 10px;
+    border: 1px solid #0068c4;
+    outline: 1px solid #0068c4;
+    color: #0068c4;
+}
+
+.weather-btn {
+    border: none;
+    background-color: #0068c4;
+    color: #ffffff;
+    padding: 14px 20px;
+    margin-left: 10px;
+    margin-top: 3px;
+    cursor: pointer;
+}
+
+.weather-btn:active {
+    scale: 0.9;
+    transition: 1s;
+}
+
+.weather-more-info {
+    border-radius: 10px;
+    width: max-content;
+    background-color: #ffffff;
+    -webkit-box-shadow: 7px 7px 5px 0px rgba(214, 214, 214, 1);
+    -moz-box-shadow: 7px 7px 5px 0px rgba(214, 214, 214, 1);
+    box-shadow: 7px 7px 5px 0px rgba(214, 214, 214, 1);
+    margin-top: 70px;
+    margin-bottom: 50px;
+}
+
+.weather-more-info-card-title {
+    color: #0068c4;
+}
+
+.weather-linechart {
+    width: 100%;
+    max-width: 1200px;
+    margin-bottom: 50px;
+}
+
+/* CSS related to liveWeatherDataLineChart.html ends here */

@@ -1,0 +1,18 @@
+{
+  "progress_bar": [
+    {
+      "action": "start",
+      "label": "Start Progress",
+      "initial_progress": 0,
+      "status_message": "Progress complete!"
+    },
+    {
+      "action": "stop",
+      "label": "Stop Progress"
+    },
+    {
+      "action": "reset",
+      "label": "Reset Progress"
+    }
+  ]
+}

@@ -1,0 +1,94 @@
+{
+  "expenses": [
+    {
+      "Category": "Salaries",
+      "Amount": 12000,
+      "Tax": 1800,
+      "Benefits": 2500
+    },
+    {
+      "Category": "Bonuses",
+      "Amount": 3000,
+      "Tax": 450,
+      "Benefits": 600
+    },
+    {
+      "Category": "Deductions",
+      "Amount": 2000,
+      "Tax": 300,
+      "Benefits": 400
+    },
+    {
+      "Category": "Rent",
+      "Amount": 1500,
+      "Tax": 200,
+      "Benefits": 0
+    },
+    {
+      "Category": "Groceries",
+      "Amount": 400,
+      "Tax": 60,
+      "Benefits": 0
+    },
+    {
+      "Category": "Utilities",
+      "Amount": 250,
+      "Tax": 30,
+      "Benefits": 0
+    },
+    {
+      "Category": "Transportation",
+      "Amount": 300,
+      "Tax": 45,
+      "Benefits": 0
+    },
+    {
+      "Category": "Entertainment",
+      "Amount": 500,
+      "Tax": 75,
+      "Benefits": 0
+    },
+    {
+      "Category": "Dining Out",
+      "Amount": 200,
+      "Tax": 30,
+      "Benefits": 0
+    },
+    {
+      "Category": "Insurance",
+      "Amount": 600,
+      "Tax": 90,
+      "Benefits": 0
+    },
+    {
+      "Category": "Healthcare",
+      "Amount": 300,
+      "Tax": 45,
+      "Benefits": 0
+    },
+    {
+      "Category": "Savings",
+      "Amount": 800,
+      "Tax": 120,
+      "Benefits": 0
+    },
+    {
+      "Category": "Debt Repayment",
+      "Amount": 1000,
+      "Tax": 150,
+      "Benefits": 0
+    },
+    {
+      "Category": "Personal Care",
+      "Amount": 100,
+      "Tax": 15,
+      "Benefits": 0
+    },
+    {
+      "Category": "Clothing",
+      "Amount": 250,
+      "Tax": 37,
+      "Benefits": 0
+    }
+  ]
+}

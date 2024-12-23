@@ -1,0 +1,9 @@
+/* CSS related to booksDatatable.html starts from here */
+.dataTable-title-section{
+    margin-bottom: 10px;
+}
+.dataTable-th{
+    background-color: #0068C4;
+    color: #FFFFFF;
+}
+/* CSS related to booksDatatable.html ends here */

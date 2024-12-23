@@ -1,0 +1,29 @@
+{
+  "modalBox": [
+    {
+      "id": "modal1",
+      "title": "Solar Energy",
+      "content": "Solar energy is a renewable power source harnessed from the sun. It's eco-friendly, reduces electricity bills, and requires minimal maintenance."
+    },
+    {
+      "id": "modal2",
+      "title": "Wind Power",
+      "content": "Wind power is a sustainable energy solution that reduces greenhouse gas emissions. It provides clean electricity while preserving natural resources."
+    },
+    {
+      "id": "modal3",
+      "title": "Water Conservation",
+      "content": "Conserving water is vital to protect our planet. Simple actions like fixing leaks and using water-efficient appliances make a big difference."
+    },
+    {
+      "id": "modal4",
+      "title": "Recycling",
+      "content": "Recycling reduces waste, saves energy, and helps protect the environment. Make it a habit to recycle paper, plastic, glass, and metal."
+    },
+    {
+      "id": "modal5",
+      "title": "Reducing Carbon Footprint",
+      "content": "Reducing your carbon footprint can be achieved by using energy-efficient appliances, driving less, and adopting plant-based diets."
+    }
+  ]
+}
