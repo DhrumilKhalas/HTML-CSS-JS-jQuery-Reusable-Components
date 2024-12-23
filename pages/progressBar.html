@@ -222,7 +222,7 @@
                 <li><a href="#" class="footer-links">Blog</a></li>
                 <li><a href="#" class="footer-links">FAQ</a></li>
             </ul>
-            <p class="footer-paragraph">&copy; 2024 - Smart Dashboard</p>
+            <p class="footer-paragraph">&copy; <span id="currentYearProgressBar"></span> - Smart Dashboard</p>
         </footer>
 
     </section>
@@ -235,6 +235,10 @@
     <!-- Importing external JavaScript files -->
     <script src="../scripts/main/main.js"></script>
     <script src="../scripts/progressBar/progressBar.js"></script>
+    <script>
+        // Get the current year using JavaScript and set it in the element with ID 'currentYearProgressBar'
+        document.getElementById('currentYearProgressBar').textContent = new Date().getFullYear();
+    </script>      
 
 </body>
 

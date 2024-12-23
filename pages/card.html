@@ -220,7 +220,7 @@
                 <li><a href="#" class="footer-links">Blog</a></li>
                 <li><a href="#" class="footer-links">FAQ</a></li>
             </ul>
-            <p class="footer-paragraph">&copy; 2024 - Smart Dashboard</p>
+            <p class="footer-paragraph">&copy; <span id="currentYearCard"></span> - Smart Dashboard</p>
         </footer>
 
     </section>
@@ -233,6 +233,10 @@
     <!-- Importing external JavaScript files -->
     <script src="../scripts/main/main.js"></script>
     <script src="../scripts/card/card.js"></script>
+    <script>
+        // Get the current year using JavaScript and set it in the element with ID 'currentYearCard'
+        document.getElementById('currentYearCard').textContent = new Date().getFullYear();
+    </script>      
 
 </body>
 
